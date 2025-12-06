@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bharti Kumari - Blog</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Bharti Kumari</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="blog.html" class="active">Blog</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="socials">
+        <a href="https://github.com/Bhartix07" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/bharti-kumari-35ab542ba/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <button id="dark-toggle">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <section id="blog" class="blog fade-in">
+    <h2>📝 Blog &amp; Academics</h2>
+    <div class="blog-container">
+      <div class="blog-card">
+        <i class="fas fa-database blog-icon"></i>
+        <h3>DBMS &amp; NoSQL</h3>
+        <p>Learned CRUD, indexing, and database design techniques with focus on relational and NoSQL concepts.</p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="blog-card">
+        <i class="fas fa-network-wired blog-icon"></i>
+        <h3>Data Communication &amp; Networks</h3>
+        <p>Studied OSI/TCP-IP models, error detection, modulation, multiplexing, and channel capacity.</p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="blog-card">
+        <i class="fas fa-desktop blog-icon"></i>
+        <h3>Operating Systems</h3>
+        <p>Worked on CPU scheduling, memory management, deadlocks, and page replacement algorithms.</p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="blog-card">
+        <i class="fas fa-microchip blog-icon"></i>
+        <h3>8085 &amp; 8086 Microprocessors</h3>
+        <p>Explored assembly programming, interrupts, addressing modes, and system interfacing.</p>
+        <a href="#">Read More</a>
+      </div>
+      <div class="blog-card">
+        <i class="fas fa-project-diagram blog-icon"></i>
+        <h3>Software Engineering</h3>
+        <p>Covered SDLC, agile methodologies, project management, and real-world case studies.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Bharti Kumari | Made with 💜
+  </footer>
+
+  <!-- Chatbot -->
+  <button id="chatbot-toggle" class="chatbot-toggle">💬</button>
+  <div id="chatbot-window" class="chatbot-window">
+    <div class="chatbot-header">
+      <h4>Portfolio Assistant</h4>
+      <button id="chatbot-close" class="chatbot-close">&times;</button>
+    </div>
+    <div id="chatbot-messages" class="chatbot-messages"></div>
+    <div class="chatbot-input-area">
+      <input id="chatbot-input" type="text" placeholder="Ask about Bharti or her academics..." />
+      <button id="chatbot-send">➤</button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
