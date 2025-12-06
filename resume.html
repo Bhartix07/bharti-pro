@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bharti Kumari - Resume</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <div class="logo">Bharti Kumari</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="resume.html" class="active">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="socials">
+        <a href="https://github.com/Bhartix07" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/bharti-kumari-35ab542ba/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <button id="dark-toggle">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Resume Section -->
+  <section class="resume fade-in">
+    <h2>📄 Resume</h2>
+
+    <!-- Education -->
+    <div class="resume-card">
+      <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+      <ul>
+        <li><strong>B.Tech Computer Science</strong> – CUSAT (2023–2027)</li>
+        <li><strong>High School</strong> – Gyan Bharti Public School, Gaya</li>
+      </ul>
+    </div>
+
+    <!-- Internship -->
+    <div class="resume-card">
+      <h3><i class="fas fa-briefcase"></i> Internship</h3>
+      <ul>
+        <li><strong>IBM SkillBuild</strong> – AI Innovation Intern</li>
+      </ul>
+    </div>
+
+    <!-- Skills with Progress Bars -->
+    <div class="resume-card">
+      <h3><i class="fas fa-tools"></i> Skills</h3>
+
+      <div class="skill-bar">
+        <p>React &amp; JavaScript</p>
+        <div class="bar"><span style="width:90%"></span></div>
+      </div>
+
+      <div class="skill-bar">
+        <p>Python &amp; AI</p>
+        <div class="bar"><span style="width:80%"></span></div>
+      </div>
+
+      <div class="skill-bar">
+        <p>HTML &amp; CSS</p>
+        <div class="bar"><span style="width:95%"></span></div>
+      </div>
+
+      <div class="skill-bar">
+        <p>Java</p>
+        <div class="bar"><span style="width:85%"></span></div>
+      </div>
+
+      <div class="skill-bar">
+        <p>DBMS &amp; NoSQL</p>
+        <div class="bar"><span style="width:85%"></span></div>
+      </div>
+    </div>
+
+    <!-- CV Download -->
+    <div class="resume-download">
+      <a href="resume read bharti.pdf" class="btn" target="_blank"><i class="fas fa-download"></i> Download CV</a>
+    </div>
+    <div class="resume-download">
+      <a href="bharti sop.pdf" class="btn" target="_blank"><i class="fas fa-download"></i> Download sop</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Bharti Kumari | Made with 💜
+  </footer>
+
+  <!-- Chatbot -->
+  <button id="chatbot-toggle" class="chatbot-toggle">💬</button>
+  <div id="chatbot-window" class="chatbot-window">
+    <div class="chatbot-header">
+      <h4>Portfolio Assistant</h4>
+      <button id="chatbot-close" class="chatbot-close">&times;</button>
+    </div>
+    <div id="chatbot-messages" class="chatbot-messages"></div>
+    <div class="chatbot-input-area">
+      <input id="chatbot-input" type="text" placeholder="Ask about Bharti's experience..." />
+      <button id="chatbot-send">➤</button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

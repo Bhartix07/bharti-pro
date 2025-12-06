@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bharti Kumari - Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <div class="logo">Bharti Kumari</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="socials">
+        <a href="https://github.com/Bhartix07" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/bharti-kumari-35ab542ba/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <button id="dark-toggle">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="floating-shapes">
+      <div class="shape shape1"></div>
+      <div class="shape shape2"></div>
+      <div class="shape shape3"></div>
+    </div>
+    <img src="WhatsApp Image 2025-11-21 at 7.32.52 PM.jpeg" class="profile-img" alt="Profile Image">
+    <h1>Bharti <span>Kumari</span></h1>
+    <p class="role">Fullstack Developer &amp; AI Enthusiast</p>
+    <p>I build scalable, high-performance web applications and develop intelligent solutions using AI and machine learning.</p>
+    <a href="resume read bharti.pdf" class="btn" target="_blank">Download CV</a>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills fade-in">
+    <h2> Technical Skills</h2>
+
+    <!-- Languages -->
+    <h3 class="skill-category">Programming Languages</h3>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="card-front"><i class="fab fa-html5"></i><h3>HTML</h3></div>
+        <div class="card-back"><p>Semantic, SEO-friendly, responsive layouts.</p></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="card-front"><i class="fab fa-js"></i><h3>JavaScript</h3></div>
+        <div class="card-back"><p>ES6+, DOM, async programming, APIs.</p></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="card-front"><i class="fab fa-java"></i><h3>Java</h3></div>
+        <div class="card-back"><p>OOP concepts, DSA, multithreading basics.</p></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="card-front"><i class="fas fa-code"></i><h3>C</h3></div>
+        <div class="card-back"><p>Loops, functions, pointers, arrays.</p></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="card-front"><i class="fas fa-code"></i><h3>C++</h3></div>
+        <div class="card-back"><p>OOP: classes, inheritance, polymorphism.</p></div>
+      </div>
+    </div>
+
+    <!-- Tools -->
+    <h3 class="skill-category">Development Tools</h3>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="card-front"><i class="fas fa-laptop-code"></i><h3>VSCode</h3></div>
+        <div class="card-back"><p>Extensions, debugging, productivity tricks.</p></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="card-front"><i class="fab fa-git-alt"></i><h3>Git</h3></div>
+        <div class="card-back"><p>Version control, branching, merging.</p></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="card-front"><i class="fab fa-github"></i><h3>GitHub</h3></div>
+        <div class="card-back"><p>Repo management, pull requests, collab.</p></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="card-front"><i class="fas fa-terminal"></i><h3>Linux/CLI</h3></div>
+        <div class="card-back"><p>Basic shell scripting and commands.</p></div>
+      </div>
+    </div>
+
+    <!-- Frameworks -->
+    <h3 class="skill-category">Frameworks &amp; Libraries</h3>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="card-front"><i class="fab fa-react"></i><h3>React</h3></div>
+        <div class="card-back"><p>Components, hooks, state management.</p></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="card-front"><i class="fab fa-node"></i><h3>Node.js</h3></div>
+        <div class="card-back"><p>Express, REST APIs, backend logic.</p></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="card-front"><i class="fab fa-css3-alt"></i><h3>CSS</h3></div>
+        <div class="card-back"><p>Flexbox, Grid, animations, responsive UI.</p></div>
+      </div>
+
+      <div class="skill-card">
+        <div class="card-front"><i class="fab fa-bootstrap"></i><h3>Bootstrap</h3></div>
+        <div class="card-back"><p>Fast prototyping, grid system, components.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Bharti Kumari | Designed by Bharti Kumari
+  </footer>
+
+  <!-- Chatbot -->
+  <button id="chatbot-toggle" class="chatbot-toggle">💬</button>
+  <div id="chatbot-window" class="chatbot-window">
+    <div class="chatbot-header">
+      <h4>Portfolio Assistant</h4>
+      <button id="chatbot-close" class="chatbot-close">&times;</button>
+    </div>
+    <div id="chatbot-messages" class="chatbot-messages"></div>
+    <div class="chatbot-input-area">
+      <input id="chatbot-input" type="text" placeholder="Ask about Bharti..." />
+      <button id="chatbot-send">➤</button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
